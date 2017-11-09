@@ -1,32 +1,95 @@
 <!DOCTYPE html>
 <html>
+<html lang="en-us">
+
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<title>Lisa Ewart's Basic Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"></li>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"></li>
+
 </head>
-<body background="regal.png">
 
-	<nav>
-	<a href="#" target="_blank">About</a> 
-	<a href="#" target="_blank">Portfolio</a> 
-	<a href="#" target="_blank">Contact</a> 
-	</nav>
+<body background = "./assets/images/regal.png">
 
-	<h1>Lisa Ewart</h1>
+<div class="wrapper">
 
-	<h2>Connect with Me</h2>
+	<header>
+		<section id="Lisa">Lisa Ewart</section>	
+		
+		<nav>
+			<ul>
+				<li id="About">
+					<a href="index.html" target="_blank">About</a> 
+				</li>
+			<li id="Portfolio">
+				<a href="portfolio.html" target="_blank">Portfolio</a> 
+			</li>
+			<li id="Contact">
+				<a href="contact.html" target="_blank">Contact</a>
+			</li>
+		</nav>
+		
+	</header>
+
+	<section id="Contact1">
+		<article id="Contact2">
+
+			<h1>Contact</h1>
+
+			<strong> <hr /> </strong>
+
+		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+			
+			<div class="row">
+				<label for="name">Name</label><br />
+				<input id="name" class="input" name="name" type="text" value="" size="75" /><br />
+			</div>
+
+			<div class="row">
+				<label for="email">Email</label><br />
+				<input id="email" class="input" name="email" type="text" value="" size="75" /><br />
+			</div>
+			
+			<div class="row">
+				<label for="message">Message</label><br />
+			
+				<textarea id="message" class="input" name="message" rows="5" cols="75"></textarea><br />
+			</div>
+
+			<input id="submit_button" type="submit" value="Submit" /> 
+			
+		</form>						
 	
+	</article> 
 	
-	<a href="#" target="_blank">
-		<img src="./assets/images/Git hub image.png" alt="Git hub image" style="width:75px;height:80px;">
-	</a>
+		<aside class="Connect">
 
-	<a href="#" target="_blank">
-		<img src="./assets/images/linked-in.png" alt="linkedin image" style="width:80px;height:80px;">
-	</a>
+			<h2>Connect with Me</h2>
+			<strong> <hr /> </strong>
+			
+			<a href="https://github.com/ewartle" target="_blank">
+				<img src="./assets/images/Git hub image.png" alt="Git hub image" style="width:75px;height:80px;">
+			</a>
 
-	<a href="" target="_blank">
-		<img src="./assets/images/stack overflow.png" alt="Stack image" style="width:80px;height:80px;">
-	</a>
+			<a href="https://www.linkedin.com/in/lisa-ewart-8971455" target="_blank">
+				<img src="./assets/images/linked-in.png" alt="linked in image" style="width:80px;height:80px;">
+			</a>
+
+			<a href="https://stackoverflow.com/" target="_blank">
+				<img src="./assets/images/stack overflow.png" alt="Stack image" style="width:80px;height:80px;">
+			</a>
+		</aside>
+
+	</section>
+
+ <div class="push"></div>
+ </div>
+
+	<footer>
+		<p>&copy;Copyright 2017 Lisa Ewart</p>
+
+	</footer>
 
 </body>
 </html>
